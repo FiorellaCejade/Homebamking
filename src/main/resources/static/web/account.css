@@ -1,0 +1,303 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+body {
+
+  background: linear-gradient(125deg, #ECFCFF 0%, #ECFCFF 40%, #B2FCFF calc(40% + 1px), #B2FCFF 60%, #5EDFFF calc(60% + 1px), #5EDFFF 72%, #3E64FF calc(72% + 1px), #3E64FF 100%);
+}
+
+
+.icono{
+  margin-right: 15px;
+}
+
+.navbar{
+  background-color: #0f1a3f !important;
+  min-height: 20vh;
+    padding-top: 1.5rem;
+    box-shadow: #2c4e80 0px 5px 15px;
+}
+
+.navbar-nav{
+  align-items: center !important;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.titulo {
+  margin-left: 5px;
+  display: flex;
+}
+
+h1 {
+  font-size: 1.5rem;
+  padding-top: 9px;
+  color: white;
+}
+
+.icono {
+  color: white;
+}
+
+.bg-light {
+  --bs-bg-opacity: 0 !important;
+}
+
+.accountN {
+  background-color: #1c1c38;
+  border-radius: 4px;
+  box-shadow: #0d6efd 0px 5px 15px;
+}
+
+.clienteDatos {
+
+  height: 14vh;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+  z-index: 3;
+  background: #12123b;
+  padding-top: 10px;
+  padding-left: 7rem;
+  box-shadow: #f8f9fa 0px 4px 12px;
+}
+
+.cuentas {
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 1rem;
+
+
+}
+
+.cuenta1 {
+
+  background: linear-gradient(to right top, #0e0e20, rgb(30, 64, 175), rgb(17, 24, 39));
+  height: 26vh;
+  width: 79vw;
+  color: azure;
+  margin-bottom: 2rem;
+  z-index: 3;
+  box-shadow: #0d6efd 0px 5px 15px;
+}
+
+.cuenta1:hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+
+  background: linear-gradient(to right, rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39));
+  box-shadow: 0 8px 32px 0 rgba(10, 14, 82, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.cuentas:hover,
+.cuentas:focus,
+.cuentas:active {
+  -webkit-transform: translateY(-20px);
+  transform: scale(1.2);
+  transition: 0.6s;
+}
+
+.seeTransactions {
+  background-color: #12123b;
+  height: 33px;
+  width: 10.1rem;
+  text-align: center;
+  padding-top: 4px;
+  border-radius: 4px;
+}
+
+.tittleLoans{
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2960918a;
+  width: 95%;
+  margin-left: 9px;
+}
+
+.conteinerCards{
+  gap:3rem;
+}
+
+.loans{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.loanc{
+  display: flex;
+    justify-content: space-around;
+    background: #1c1c38;
+    margin-top: 2rem;
+    width: 90vw;
+    color: whitesmoke;
+    border-radius: 15px;
+    background: linear-gradient(to right, rgb(6 14 37), rgb(56 85 180), rgb(17, 24, 39));
+    box-shadow: #0d6efd 0px 5px 15px;
+    
+}
+
+.loanss:hover{
+  transform: translateY(-15%);
+  transition: 0.6s;
+  
+}
+
+.conteinerSaldoYcuotas{
+  font-size: 14px;
+    padding-top: 15px;
+    margin-left: 29px;
+    text-align: center;
+}
+
+.nombreYdayLoan{
+  padding-top: 2rem;
+}
+
+.monto{
+  color:#0dcaf0;
+}
+
+.nomaLoan{
+  height: 26px;
+    background-color: #45457591;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: #0d6efd 0px 5px 15px;
+    
+}
+
+.loanse{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.noLoans{
+  margin-top: 5rem;
+    font-size: 40px;
+    background-color: #5f979a57;
+    width: 60vw;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.nav-link{
+  color:  aliceblue;
+}
+
+footer {
+  height: 15vh;
+  background-color: #12123b;
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.butonDelete{
+  color: white;
+    border-radius: 8px;
+    height: 35px;
+    background-color: #0d6efd;
+    border: none;
+    width: 78px;
+}
+
+p{
+  margin-bottom: 10px !important;
+}
+
+@media (min-width: 640px) {
+  main {
+    min-height: 69vh;
+  }
+
+  .conteinerCards {
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+  }
+  .loanc{
+    width: 64vw
+  }
+
+  .cuenta1{
+    height: 30vh;
+  }
+
+}
+
+@media (min-width: 1000px){
+
+  .cuenta1{
+    height: 30vh;
+  }
+
+
+  .loanc {
+    width: 29vw !important;
+  }
+
+  .conteinerSaldoYcuotas {
+    font-size: 18px;
+  }
+
+  .nombreYdayLoan {
+    font-size: 21px;
+}
+
+.nomaLoan {
+  height: 34px;
+}
+
+.noLoans{
+  margin-top: 9rem;
+}
+
+.icono{
+  width: 4rem !important;
+}
+
+h1 {
+  font-size: 2.6rem !important;
+}
+
+.nav-item > a{
+  font-size: 1.2rem;
+}
+
+.navbar-nav{
+  gap: 1.2rem !important;
+}
+
+
+
+}

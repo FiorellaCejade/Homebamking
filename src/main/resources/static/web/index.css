@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+/* 
+body {
+
+    background: linear-gradient(125deg, #ECFCFF 0%, #ECFCFF 40%, #B2FCFF calc(40% + 1px), #B2FCFF 60%, #5EDFFF calc(60% + 1px), #5EDFFF 72%, #3E64FF calc(72% + 1px), #3E64FF 100%);
+} */
+
+.icono {
+    margin-right: 15px;
+}
+
+.navbar {
+    background-color: #0f1a3f !important;
+    min-height: 20vh;
+    padding-top: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.navbar-nav {
+    align-items: center !important;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.titulo {
+    margin-left: 5px;
+    display: flex;
+}
+
+h1 {
+    font-size: 1.5rem;
+    padding-top: 9px;
+    color: white;
+}
+
+.icono {
+    color: white;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0 !important;
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+.ofertaIndex {
+    background: #1a938c3d;
+    height: 21vh;
+    margin-top: 4rem;
+    display: flex;
+    padding-left: 7.5rem;
+    gap: 2rem;
+}
+
+.avionImg {
+    height: 21vh;
+}
+
+.promoViaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tituloInfoIndex {
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+.conteinerInfoIndex {
+    width: 90%;
+    display: flex;
+    gap: 2rem;
+    margin-left: 7.3rem;
+
+}
+
+.Applepay {
+    height: 55vh;
+    width: 36vw;
+}
+
+.textoApp {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.saludFinancieraYapp {
+    height: 55vh;
+}
+
+.celular {
+    width: 36vw;
+    height: 32vh;
+}
+
+.saludFinanciera {
+    height: 26vh;
+    margin-bottom: 1rem;
+}
+
+.appMB {
+    height: 26.3vh;
+}
+
+.saludFinanciera,
+.appMB {
+    display: flex;
+    width: 40vw;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.imgSaludFinanciera,
+.imgAppMB {
+    height: 25vh;
+}
+
+.Applepay,
+.saludFinanciera,
+.app {
+    background-color: #f4f4f4;
+}
+
+
+.textosInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.solicitarTurno {
+    margin-top: 5rem;
+    height: 35vh;
+    background-color: #082247;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.novedades {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.img1 {
+    width: 32vw;
+    background-color: #f4f4f4;
+}
+
+.imagen1 {
+    width: 100%;
+    height: 30vh
+}
+
+.novedadesInfo {
+    display: flex;
+    width: 90vw;
+    gap: 2rem;
+    margin-left: 5rem;
+    margin-top: 6rem;
+}
+
+.tituloNovedades {
+    margin-top: 1.5rem;
+}
+
+.textoNovedades {
+    padding: 2rem;
+    color: #7d7d7d;
+}
+
+.avisoLegal {
+    background-color: aliceblue;
+    margin-top: 4rem;
+    padding-left: 5rem;
+    padding-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.imagenBancoNacion {
+    padding-left: 26rem;
+}
+
+footer {
+    height: 15vh;
+    background-color: #12123b;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+@media (min-width: 640px) {
+    main {
+        min-height: 69vh;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .icono {
+        width: 4rem !important;
+    }
+
+    h1 {
+        font-size: 2.6rem !important;
+    }
+
+    .nav-item>a {
+        font-size: 1.2rem;
+    }
+
+    .navbar-nav {
+        gap: 1.2rem !important;
+    }
+
+
+}

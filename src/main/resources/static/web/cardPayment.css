@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+body {
+
+    background: linear-gradient(125deg, #ECFCFF 0%, #ECFCFF 40%, #B2FCFF calc(40% + 1px), #B2FCFF 60%, #5EDFFF calc(60% + 1px), #5EDFFF 72%, #3E64FF calc(72% + 1px), #3E64FF 100%)
+}
+
+.icono {
+    margin-right: 15px;
+}
+
+.navbar {
+    background-color: #0f1a3f !important;
+    min-height: 20vh;
+    padding-top: 1.5rem;
+    box-shadow: #2c4e80 0px 5px 15px;
+}
+
+.navbar-nav {
+    align-items: center !important;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.titulo {
+    margin-left: 5px;
+    display: flex;
+}
+
+h1 {
+    font-size: 1.5rem;
+    padding-top: 9px;
+    color: white;
+}
+
+.icono {
+    color: white;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0 !important;
+}
+
+.nav-link{
+    color:  aliceblue;
+}
+
+.text-payment{
+    color: #0f1a3f;
+}
+
+
+footer {
+    height: 15vh;
+    background-color: #12123b;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 1rem;
+}
+
+.fondoPayment{
+    background-color:#12123b59;
+}
+
+.cardInformation{
+    background-color: #26266c69;
+    
+}
+
+@media (max-width: 768px) {
+    .fondoPayment{
+        width: 367px ;
+    }
+
+    .description{
+        width: 204px;
+    }
+}

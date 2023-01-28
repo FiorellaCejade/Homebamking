@@ -1,0 +1,373 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+body {
+
+    background: linear-gradient(125deg, #ECFCFF 0%, #ECFCFF 40%, #B2FCFF calc(40% + 1px), #B2FCFF 60%, #5EDFFF calc(60% + 1px), #5EDFFF 72%, #3E64FF calc(72% + 1px), #3E64FF 100%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icono {
+    margin-right: 15px;
+}
+
+.navbar {
+    background-color: #0f1a3f !important;
+    min-height: 20vh;
+    padding-top: 1.5rem;
+    box-shadow: #2c4e80 0px 5px 15px;
+}
+
+.navbar-nav {
+    align-items: center !important;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.titulo {
+    margin-left: 5px;
+    display: flex;
+}
+
+h1 {
+    font-size: 1.5rem;
+    padding-top: 9px;
+    color: white;
+}
+
+.icono {
+    color: white;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0 !important;
+}
+
+.nav-link{
+    color:  aliceblue;
+}
+
+.text {
+    font-size: 2.5rem;
+    line-height: 1.5em;
+    word-spacing: 0.5em;
+    letter-spacing: 0.1em;
+    font-family: "OpenSansCondensed-Bold", sans-serif;
+}
+
+.navbar{
+    height: 17vh;
+    background-color: #0f1a3f !important;
+    box-shadow: #2c4e80 0px 5px 15px;
+}
+
+.ancorNav {
+    margin-right: 1.5rem;
+    background: #181824;
+    width: 109px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10.8px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #181824;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.ancorNav:hover {
+    background-color: #2cb6ba;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #241818 !important;
+    transform: translateY(-7px);
+}
+
+.ancorNav:active {
+    transform: translateY(-1px);
+}
+
+.conteinerTituloNav {
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    background: #0e415d;
+    box-shadow: #f8f9fa 0px 4px 12px;
+}
+
+.accountN {
+    background-color: #1c1c38;
+    border-radius: 4px;
+}
+
+.clienteDatos {
+
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    background: #12123b;
+    box-shadow: #f8f9fa 0px 4px 12px;
+    margin-bottom: 2rem;
+}
+
+.cuentas {
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1rem;
+
+
+}
+
+.cuenta1 {
+
+    background: linear-gradient(to right top, #0e0e20, rgb(30, 64, 175), rgb(17, 24, 39));
+    height: 28vh;
+    width: 79vw;
+    color: azure;
+    margin-bottom: 2rem;
+    z-index: 3;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.cuenta1:hover {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+
+    background: linear-gradient(to right, rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39));
+    box-shadow: 0 8px 32px 0 rgba(10, 14, 82, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.cuenta1:hover,
+.cuenta1:focus,
+.cuenta1:active {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+}
+
+.seeTransactions {
+    background-color: #12123b;
+    height: 33px;
+    width: 10.1rem;
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 4px;
+}
+
+.loan{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    height: 15vh;
+    background-color: #12123b;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#active {
+    background-color: #2cb6ba;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #241818 !important;
+    transform: translateY(7px);
+
+}
+
+.navbar {
+    background-color: #0f1a3f !important;
+    min-height: 20vh;
+    padding-top: 1.5rem;
+}
+.loans{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 30vh;
+}
+
+.nomaLoan{
+    background-color: #45457591;
+    text-align: center;
+    border-radius: 7px;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 15px 25px rgb(0 0 0 / 60%);
+}
+
+.saldoSolicitado{
+    text-decoration: underline;
+}
+
+.conteinerSaldoYcuotas{
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 17px;
+}
+
+.loanc{
+    display: flex;
+    justify-content: space-around;
+    background: #1c1c38;
+    margin-top: 2rem;
+    width: 88vw;
+    color: whitesmoke;
+    border-radius: 15px;
+    background: linear-gradient(to right, rgb(6 14 37), rgb(56 85 180), rgb(17, 24, 39));
+    box-shadow: #000000 0px 5px 15px;
+}
+
+.loanss:hover{
+    transform: translateY(-15%);
+    transition: 0.6s;
+    
+}
+
+.montoycuotas{
+    text-align: center;
+    color: #0dcaf0;
+}
+
+.conteinerFormLoan{
+    background-color:  #304998;
+    color: white;
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    box-shadow: #000000 0px 5px 15px;
+    
+
+}
+
+.maxAmount{
+    background-color: antiquewhite;
+    width: 60vw;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+h4{
+    margin-top: 15px;
+}
+
+.loanName{
+    display: flex;
+    align-items: center;
+}
+
+.form-check-label1{
+    color: #0e0e20;
+}
+
+.totalApagar{
+    justify-content: center;
+    height: 37px;
+    width: 127px;
+    background: #3e64ff;
+    display: flex;
+    align-items: center;
+    border-radius: 9px;
+}
+
+
+
+@media (min-width: 640px) {
+    main {
+        min-height: 69vh;
+    }
+
+    .nomaLoan{
+        height: 34px;
+    }
+
+    .loanc{
+        width: 45vw;
+    }
+
+}
+
+@media (min-width:1440px) {
+
+    .nomaLoan{
+        height: 34px;
+    }
+
+    .loanc{
+        width: 45vw;
+    }
+
+    
+.titulo {
+    margin-left: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.loanc{
+    width: 28vw;
+}
+
+.conteinerFormLoan{
+    width: 45vw;
+}
+
+.form-control{
+    width: 30%!important;
+    
+}
+
+.maxAmount{
+    width: 25vw;
+    margin-left: 8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+}

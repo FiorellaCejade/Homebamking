@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    background: linear-gradient(125deg, #ECFCFF 0%, #ECFCFF 40%, #B2FCFF calc(40% + 1px), #B2FCFF 60%, #5EDFFF calc(60% + 1px), #5EDFFF 72%, #3E64FF calc(72% + 1px), #3E64FF 100%);
+}
+
+main {
+    min-height: 76vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.clienteDatos {
+
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    background: #12123b;
+    box-shadow: #f8f9fa 0px 4px 12px;
+}
+
+.icono {
+    margin-right: 15px;
+}
+
+.navbar {
+    background-color: #0f1a3f !important;
+    min-height: 20vh;
+    padding-top: 1.5rem;
+    box-shadow: #2c4e80 0px 5px 15px;
+}
+
+.navbar-nav {
+    align-items: center !important;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.titulo {
+    margin-left: 5px;
+    display: flex;
+}
+
+h1 {
+    font-size: 1.5rem;
+    padding-top: 9px;
+    color: white;
+}
+
+.icono {
+    color: white;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0 !important;
+}
+
+.nav-link{
+    color:  aliceblue;
+}
+
+footer {
+    height: 15vh;
+    background-color: #12123b;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.conteinerForm{
+    background-color: #12123a;
+    color: white;
+    height: 67vh;
+    width: 81vw;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    box-shadow: #0d2444 0px 5px 15px;
+}
+
+.nombre{
+    background-color: bisque;
+    width: 65vw;
+    color: #12123a;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.own{
+    width: 58vw;
+}
+
+.typeCard{
+    padding-left: 29px;
+}
+
+@media(min-width:768px) {
+
+    .nombre{
+        width: 45vw;
+    }
+
+    .conteinerForm{
+        width: 51vw;
+        height: 60vh;
+    }
+
+    .own{
+        width: 32vw;
+    }
+
+}
+
+@media(min-width:1000px){
+
+    .amount, .description{
+        width: 32vw;
+    }
+
+}
