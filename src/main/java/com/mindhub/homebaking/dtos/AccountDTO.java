@@ -9,7 +9,6 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 public class AccountDTO {
-
     private long id;
     private String number;
     private double balance;
