@@ -1,6 +1,6 @@
 FROM gradle:7.5.1-jkd11-alpine
 
-COPY ..
+COPY . .
 
 RUN gradle build
 
