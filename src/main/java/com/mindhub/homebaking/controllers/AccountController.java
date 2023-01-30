@@ -69,7 +69,12 @@ public class AccountController {
         Set<Account> accounts = client.getAccounts();
         Account accountCurrent = accountService.getAccountById(id);
         Account accountFound = accounts.stream().filter(account -> account == accountCurrent).findFirst().orElse(null);
+
+
         if (accountCurrent.getBalance() > 0) {
+            return new ResponseEntity<>("You cannot delete an account with a balance",HttpStatus.FORBIDDEN);
+        }
+        if(accountCurrent.getCards().size() > 0) {
             return new ResponseEntity<>("You cannot delete an account with a balance",HttpStatus.FORBIDDEN);
         }
 
